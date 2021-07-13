@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+# Take-home Assessment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+To run the appliation:
+`npm start`
 
-## Available Scripts
+To run tests:
+`npm test`
 
-In the project directory, you can run:
+## Below are the answers to the questions
 
-### `npm start`
+**1. What's your proudest achievement? It can be a personal project or something you've worked on professionally. Just a short paragraph is fine, but I'd love to know why you're proud of it.**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+In my most recent job, I was responsible for managing the team and also the product itself. The product(dORM) is an open-source developer tool that I've been working on with three other engineers on the team. It's a SQL ORM (Object Relational Mapping) for Deno, a secure runtime environment for TypeScript. The reason why this is my proudest achievement is because it required not only thorough engineering but also good teamwork to accomplish it.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+The problem was that although the team knew what we wanted to build and had the same goal, we have never worked together before. Everyone had different backgrounds and skillsets. What I have also noticed was that all of us was an introvert. At first, the meetings had a very little impact on development because no one would take the initiative. Being the least introvert guy in the room, I started initiating conversations and discussing the MVP features that we had to work on. I was having conversations with each team member one-on-one in order to get to know them better in person as well as in terms of their work preferences, their characters, their skillsets, and etc. Because I was spending time with each member the most, the team naturally looked at me to lead often even though I was the youngest in the team. To me personally, I consider a team environment very important because I know that one person can either make it or break it. As my responsibility grew, although I was "leading" the team, I never wanted to be seen as the "boss" because I think a true leader will always be humble and bring the best out of each member. Thankfully, the team really enjoyed working together and because of that, although we have faced many technical roadblocks, we were able to push through and accomplish what we had envisioned and was able to deploy our product successfully. It was very enjoyable experience that I could not ask for more.
 
-### `npm test`
+**2. Tell me about a technical book or article you read recently, why you liked it, and why I should read it.**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+I've recently read an article about Github's Copilot, an AI pair programming powered by OpenAI Codex, on towards data science website. This article talks about recently released Github Copilot. The AI in Copilot was trained with massive natural-language texts and open source code repositories to suggest an auto completion of the code user wants to write. It can write out whole functions or auto complete the function user is writing by simply writing out prompts in comments by a user. It can also write unit tests for the methods user have written. It works best with Python, JavaScript, TypeScript, Ruby, and Go but it can also understand other languages. The article also touches on the future of coding, whether Copilot is usefuel/reliable or not, and the legal issues of the technology. I liked this article because not only it talks about the technology but also discuss the history of the Copilot as well as the implication and impact of technology in our life. You should read this because I believe that everyone working in their profession should be aware of this type of industry changing technologies or events whether you enjoy reading or not. Keeping up with news and technologies will help you see clearer and make wiser choices.
 
-### `npm run build`
+**3. Tell me one thing about Holler that you really like, and why.**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+I've always thought Venmo's emoji suggestion was very clever and very practical with ease of use except I've only recently figured out that the technology was by Holler. I think that emoji suggestion based on the conversation has a lot of potential. For example, there's a messaging application called KaKaoTalk which let users submit their own emoji stickers to be listed in the market to be sold to the other users. Users who purchases the emojis can now use it freely in the application. What is known as a messaging app has become one of the most successful company in South Korea. I think utilizing Holler's AI technology along with the user created content can be a massive industry changing strategy. Holler's technology not only makes it really easy for the users to use emojis but also can be integrated into numerous applications with great potentials.
