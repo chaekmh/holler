@@ -4,13 +4,24 @@ import { DropdownButton, Dropdown } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export function Main(props) {
+  // Character data from api
   const [characters, setCharacters] = useState([]);
+  // Deathcount data from api
   const [charDeathCount, setCharDeathCount] = useState([]);
+  // CharacterCard Component data
   const [characterCards, setCharacterCards] = useState([]);
+  // Sorted character indices data
   const [sortedIndex, setsortedIndex] = useState([]);
+  // Final CharacterCard component to be displayed on the web
   const [displayCards, setDisplayCards] = useState([]);
+  // Sort type state
   const [sorted, setSorted] = useState('Featured');
 
+  /**
+   * Sorting method based on sort type
+   *
+   * @param {*} value (String) Sorting type: 'Featured', 'First Name', 'Last Name', 'Death Count'
+   */
   function sortBy(value) {
     const result = [...sortedIndex];
     switch (value) {
@@ -53,6 +64,12 @@ export function Main(props) {
     createDisplayCards(result, characterCards);
   }
 
+  /**
+   * Helper method to re-order CharacterCard component based on the sort
+   *
+   * @param {*} arr (Array) Sorted indices array
+   * @param {*} cards (Array) CharacterCard component array
+   */
   function createDisplayCards(arr, cards) {
     setDisplayCards(arr.map((ele) => cards[ele]));
   }
@@ -62,7 +79,6 @@ export function Main(props) {
       .then((res) => res.json())
       .then((data) => {
         setCharacters(data);
-        console.log(data);
 
         let cards = data.map((ele, i) => {
           return <CharacterCard {...ele} key={i} />;
